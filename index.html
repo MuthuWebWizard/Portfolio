@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+    <!-------------------------Navigation-section----------------------->
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">Muthulakshmi</label>
+        <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#project">project</a></li>
+            <li><a href="#skill">Skill/Language</a></li>
+            <li><a href="#certification">Certification</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <!-------------------------Home-section----------------------->
+    <section id="home" class="section">
+        <div class="img">
+            <img src="./Images/my-image.jpeg" alt="my-image" class="myImage">
+        </div>
+        <div class="hero">
+            <div class="header-text">
+                <h1>Hi I'm <span style="color:#0082e6">Muthulakshmi</span></h1>
+                <h1>FRONT-END DEVELOPER</h1>
+                <p class="aboutme"> A dedicated front-end developer with a strong foundation
+                    in creating responsive <br> and interactive web applications.</p>
+                <button class="cvbtn" onclick="downloadcv()">Download My CV</button>
+            </div>
+        </div>
+    </section>
+
+    <!-------------------------project-section----------------------->
+
+    <section id="project" class="section">
+        <h1 class="heading">My project</h1>
+        <div class="project-list">
+            <div class="pro">
+                <p>Calculator</p>
+                <a class="pro-link" href="https://muthuwebwizard.github.io/Calculator/" target="_blank">View</a>
+            </div>
+            <div class="pro">
+                <p>To-Do-List</p>
+                <a class="pro-link" href="https://muthuwebwizard.github.io/ToDoList/" target="_blank">view</a>
+            </div>
+            <div class="pro">
+                <p>Word Calculation </p>
+                <a class="pro-link" href=" https://muthuwebwizard.github.io/wordCalculation/" target="_blank">view</a>
+            </div>
+            <div class="pro">
+                <p>Digital Clock</p>
+                <a class="pro-link" href="https://muthuwebwizard.github.io/DigitalClock/" target="_blank">view</a>
+            </div>
+            <div class="pro">
+                <p>Temparature Converter</p>
+                <a class="pro-link" href=" https://muthuwebwizard.github.io/TemperatureConverter/"
+                    target="_blank">view</a>
+            </div>
+            <div class="pro">
+                <p>Password Generator</p>
+                <a class="pro-link" href=" https://muthuwebwizard.github.io/PasswordGenerator/" target="_blank">view</a>
+            </div>
+        </div>
+    </section>
+    <!-------------------------Skill-section----------------------->
+    <section id="skill" class="section">
+        <h1 class="heading">Skill</h1>
+        <div class="main-skill">
+            <div class="skill-set">
+                <img class="logo-img" src="./Images/html.png" alt="HTML-logo">
+                <p><span style="font-weight: bold;">Proficiency</span>: Intermediate</p>
+            </div>
+            <div class="skill-set">
+                <img class="logo-img" src="./Images/css.png" alt="CSS-logo">
+                <p><span style="font-weight: bold;">Proficiency</span>: Intermediate</p>
+            </div>
+            <div class="skill-set">
+                <img class="logo-img" src="./Images/js.png" alt="Javascript-logo">
+                <p><span style="font-weight: bold;">Proficiency</span>: Intermediate</p>
+            </div>
+            <div class="skill-set">
+                <img class="logo-img" src="./Images/bootstrap.jpg" alt="Bootstrap-logo">
+                <p><span style="font-weight: bold;">Proficiency</span>: Intermediate</p>
+            </div>
+            <div class="skill-set">
+                <img class="logo-img" src="./Images/jquery.png" alt="jquery-logo">
+                <p><span style="font-weight: bold;">Proficiency</span>: Intermediate</p>
+            </div>
+            <div class="skill-set">
+                <img class="logo-img" src="./Images/react.png" alt="react-logo">
+                <p><span style="font-weight: bold;">Proficiency</span>: Intermediate</p>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-------------------------Certification-section----------------------->
+    <section id="certification" class="section">
+        <h1 class="heading">Certification</h1>
+        <div class="myCertificate">
+            <a class="btn btn-prev"><i class="fa-solid fa-caret-left"></i></a>
+            <a class="btn btn-next"><i class="fa-solid fa-caret-right"></i></a>
+        </div>
+    </section>
+    <!-------------------------Contact-section----------------------->
+    <section id="contact" class="section">
+        <h1 class="heading">Contact</h1>
+        <div class="contact-info">
+            <li><i class="fa-solid fa-envelope"></i><a
+                    href="mailto:sankarmuthu926@gmail.com">sankarmuthu926@gmail.com</a></li>
+            <li><i class="fa-solid fa-phone"></i><a href="tel:+91-8015565785">8015565785</a></li>
+            <li><i class="fa-brands fa-github"></i><a href="https://github.com/muthuWebWizard"
+                    target="_blank">github.com/muthuWebWizard</a></li>
+        </div>
+    </section>
+</body>
+
+</html>
