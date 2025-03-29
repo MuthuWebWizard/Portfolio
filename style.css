@@ -66,7 +66,7 @@ a:hover {
     display: none;
 }
 
-@media (max-width: 952px) {
+@media (max-width: 767px) {
     label.logo {
         font-size: 30px;
         padding-left: 50px;
@@ -77,7 +77,7 @@ a:hover {
     }
 }
 
-@media (max-width: 858px) {
+@media (max-width: 767px) {
     .checkbtn {
         display: block;
     }
@@ -170,7 +170,7 @@ h1 {
     line-height: 50px;
 }
 
-@media (max-width: 858px) {
+@media (max-width: 767px) {
     .hero {
         flex-direction: column;
         text-align: center;
@@ -184,7 +184,7 @@ h1 {
     }
 
     .header-text {
-        margin: 20px 0;
+        margin: 20px 10;
     }
 }
 
@@ -232,9 +232,10 @@ html {
     color: #B1D4E0;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 767px) {
     .project-list, .main-skill {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
     }
 }
 .logo-img {
@@ -258,7 +259,7 @@ html {
     width: 200px;
 }
 
-@media (max-width: 858px) {
+@media (max-width: 767px) {
     .main-skill {
         flex-wrap: wrap;
     }
@@ -293,7 +294,7 @@ html {
     margin-right: 10px;
     color: #007BFF;
 }
-@media (max-width: 858px) {
+@media (max-width: 767px) {
     .contact-info {
         width: 90%; 
         margin-left: auto; 
@@ -342,7 +343,7 @@ html {
     border-radius: 10px;
     cursor: pointer;
 }
-@media (max-width: 858px){
+@media (max-width: 767px){
     .myCertificate {
         cursor: pointer;
     }
