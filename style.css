@@ -66,7 +66,7 @@ a:hover {
     display: none;
 }
 
-@media (max-width: 767px) {
+@media (width < 750px) {
     label.logo {
         font-size: 30px;
         padding-left: 50px;
@@ -77,7 +77,7 @@ a:hover {
     }
 }
 
-@media (max-width: 767px) {
+@media (width < 750px) {
     .checkbtn {
         display: block;
     }
@@ -170,7 +170,7 @@ h1 {
     line-height: 50px;
 }
 
-@media (max-width: 767px) {
+@media (width < 750px) {
     .hero {
         flex-direction: column;
         text-align: center;
@@ -232,7 +232,7 @@ html {
     color: #B1D4E0;
 }
 
-@media (max-width: 767px) {
+@media (width < 750px) {
     .project-list, .main-skill {
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
@@ -259,7 +259,7 @@ html {
     width: 200px;
 }
 
-@media (max-width: 767px) {
+@media (width < 750px) {
     .main-skill {
         flex-wrap: wrap;
     }
@@ -269,7 +269,7 @@ html {
     box-shadow: 5px 10px 8px 10px #888888;
     padding: 10px;
     height: 200px;
-    width: 90%;
+    width: 30%;
     margin: 0 auto;
     
 
@@ -294,7 +294,7 @@ html {
     margin-right: 10px;
     color: #007BFF;
 }
-@media (max-width: 767px) {
+@media (width < 750px) {
     .contact-info {
         width: 90%; 
         margin-left: auto; 
@@ -343,9 +343,10 @@ html {
     border-radius: 10px;
     cursor: pointer;
 }
-@media (max-width: 767px){
+@media (width < 750px){
     .myCertificate {
         cursor: pointer;
+        z-index: -1;
     }
     .myCertificate .btn:hover {
         background-color: #1b9bff;

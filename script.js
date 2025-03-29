@@ -24,6 +24,8 @@ document.addEventListener("DOMContentLoaded", () => {
   const btns = document.querySelectorAll('.btn');
   const imglist = ["zitacad", "UI_Design", "Cart_Item"];
   let index = 0;
+  
+
   btns.forEach((button) => {
       button.addEventListener('click', () => {
           if (button.classList.contains('btn-prev')) {
