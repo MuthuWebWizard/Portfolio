@@ -22,22 +22,22 @@ function openProject(url) {
 document.addEventListener("DOMContentLoaded", () => {
   const myCertificate = document.querySelector('.myCertificate');
   const btns = document.querySelectorAll('.btn');
-  const imglist = ["Zitacad", "UI_Design", "Cart_Item"];
+  const imglist = ["zitacad", "UI_Design", "Cart_Item"];
   let index = 0;
   btns.forEach((button) => {
-    button.addEventListener('click', () => {
-      if (button.classList.contains('btn-prev')) {
-        index--;
-        if (index < 0) {
-          index = imglist.length - 1;
-        }
-      } else if (button.classList.contains('btn-next')) {
-        index++;
-        if (index >= imglist.length) {
-          index = 0;
-        }
-      }
-      myCertificate.style.background = `url("Images/${imglist[index]}.jpeg") center/cover`;
-    });
+      button.addEventListener('click', () => {
+          if (button.classList.contains('btn-prev')) {
+              index--;
+              if (index < 0) {
+                  index = imglist.length - 1;
+              }
+          } else if (button.classList.contains('btn-next')) {
+              index++;
+              if (index >= imglist.length) {
+                  index = 0;
+              }
+          }
+          myCertificate.style.background = `url("Images/${imglist[index]}.jpeg") center/cover`;
+      });
   });
 });
